@@ -1,0 +1,142 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  text-align: center;
+  color: #FFC302;
+}
+
+/*  navigationbar
+                  ------------------------------*/
+
+.brand-name{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      color: #0008FF;
+
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel{
+padding-top:2%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+
+}
+.carousel-item> img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.carousel-head{
+  color: #fa1616;
+  font-size: 4rem;
+}
+.carousel-para{
+  color: #ff5151;
+  font-size: 1.5rem;
+}
+
+
+/* youtube-section */
+#youtube{
+  text-align: center;
+  align-items: center;
+}
+iframe{
+margin: 0 20% 3% 20%;
+}
+
+/*cards-price
+-------------------------------------------------- */
+#cards{
+  text-align: center;
+}
+.cards{
+  padding: 5%;
+  color: #FFC302;
+}
+.segment-head{
+  color: #0008FF;
+  margin-top: 7%;
+}
+.segment p{
+      color: black;
+}
+#cards button{
+  margin-bottom: 2%;
+}
+
+/* whyranco
+--------------------------*/
+#whyranco{
+  background-color: #383e56;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+  color: #FFC302;
+}
+#whyranco p{
+  color: white;
+}
+.fas:hover{
+  color: #0008FF;
+}
+
+/* testimonials------- */
+#Testimonials{
+  align-items: center;
+  text-align: center;
+  background-color:#383e56;
+  color: white;
+}
+#Testimonials img{
+  width: 10%;
+  border-radius: 100%;
+  position: relative;
+  bottom: 5%;
+}
+#testimonial-head{
+  margin: 3% 0;
+  padding-top: : 4%;
+}
+
+/* contactus */
+#contactus{
+  text-align: center;
+  color: black;
+
+}
+/* footer */
+#footer{
+  text-align: center;
+  background-color: #383e56;
+  margin-bottom: 0;
+}
+#footer h3,p{
+  color: white;
+}
+.social{
+  font-size: 30px;
+  margin: 0 1%;
+}
